@@ -1,0 +1,113 @@
+
+
+.switch-bg {
+  background: #0b1821;
+}
+
+.switch-border {
+  border: #0a2c42 solid 7px !important;
+}
+
+body {
+  transition: 1s;
+  z-index: 10;
+}
+
+#switch__checkbox {
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.switch {
+  z-index: 99;
+  right: 0;
+  top: 10;
+  position: absolute;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+  
+  border: 7px solid #dadac8;
+  border-radius: 45px;
+
+}
+.switch__label {
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.switch__circle {
+  position: absolute;
+  z-index: 10;
+  width: 20px;
+  height: 22px;
+  background: #ece93b;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-top: 2px;
+  transition: all 1s;
+}
+#switch__checkbox:not(checked) ~ .switch__label .switch__circle {
+  animation: size-back 0.625s linear;
+  -moz-animation: size-back 0.625s linear both;
+}
+#switch__checkbox:checked ~ .switch__label .switch__circle {
+  transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  background: #fff;
+  animation: size 0.625s linear;
+  -moz-animation: size 0.625s linear;
+}
+.switch__circle:before {
+  position: absolute;
+  z-index: -10;
+  content: "";
+  width: 20px;
+  height: 22px;
+  top: 0;
+  left: -23px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: all 1s;
+  -moz-transition: all 1s;
+}
+#switch__checkbox:checked ~ .switch__label .switch__circle:before {
+  transform: translate3d(65%, 0, 0);
+  -moz-transform: translate3d(65%, 0, 0);
+}
+#switch__checkbox:checked ~ .switch__label .switch__circle:before {
+  background:#1f2937;
+}
+
+@keyframes size {
+  0% {
+    transform: translateX(0) scale(1);
+    background: #d9d726;
+  }
+  55% {
+    transform: translateX(20px) scale(0.5);
+    background: #d9d726;
+  }
+  100% {
+    transform: translateX(40px) scale(1);
+  }
+}
+@keyframes size-back {
+  0% {
+    transform: translateX(40px) scale(1);
+    background: white;
+  }
+  55% {
+    transform: translateX(20px) scale(0.5);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
