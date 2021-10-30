@@ -31,12 +31,10 @@
 }
 .h2::before{
     background:rgb(255, 255, 255);
-    
     animation: typewriter 4s  steps(20) forwards;
 }
 .h2::after{
     width: 0.10em;
-    border: 1px solid silver;
     background: rgb(129, 119, 119);
     animation:typewriter 4s  steps(20) forwards,
               blink 740ms steps(20)  infinite;

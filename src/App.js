@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="flex flex-col w-screen h-screen dark:bg-gray-900 dark:opacity-25">
+    <div className="flex flex-col dark:bg-gray-900 dark:opacity-25">
       <Header/>
       <Home/>
       <Projects/>
