@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Button from '@mui/material/Button';
 import "./Projects.css";
 import Machifresh from "./logo/logo .jpg"
@@ -24,82 +24,35 @@ function Projects() {
                                         <img src={Machifresh} className='rounded ' alt="/" />
                                         <a href="https://machifresh-18abf.web.app" target="_blank" rel="noreferrer" > <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button></a>
 
-
-                                        {/* <Button   variant="outlined"><a href='http://WWW.google.com' rel="noreferrer" target="_blank" >View website</a></Button>  */}
-
-
-
-
-
-
-
-                                </div>
+                                 </div>
 
                                 <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded  flex justify-between'>
                                         <img src={news} className='rounded ' alt="/" />
                                         <a href="https://articles-b7682.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
-
-
-                                        {/* <Button   variant="outlined"><a href='http://WWW.google.com' rel="noreferrer" target="_blank" >View website</a></Button>  */}
-
-
-
-
-
-
-
-                                </div>
+                                  </div>
                                 <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded  flex justify-between'>
                                         <img src={cuskoo} className='rounded  h-32' alt="/" />
-                                        <a href="https://articles-b7682.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
+                                        <a href="https://crm-app-bf117.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
 
 
-                                        {/* <Button   variant="outlined"><a href='http://WWW.google.com' rel="noreferrer" target="_blank" >View website</a></Button>  */}
+                                         </div>
+                                       <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded   flex justify-between'>
+                                        <img src={ems} className='rounded 32 ' alt="/" />
+                                        <a href="https://employms-c8870.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
 
 
-
-
-
-
-
-                                </div>
-
-                                
-
-
-                                <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded   flex justify-between'>
-                                        <img src={ems} className='rounded 32 '  alt="/" />
-                                        <a href="https://articles-b7682.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
-
-
-                                        {/* <Button   variant="outlined"><a href='http://WWW.google.com' rel="noreferrer" target="_blank" >View website</a></Button>  */}
-
-
-
-
-
-
-
-                                </div>
+                                       </div>
                                 <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded  flex justify-between'>
                                         <img src={tasc} className='rounded h-32 ' alt="/" />
-                                        <a href="https://articles-b7682.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
-
-
-                                        {/* <Button   variant="outlined"><a href='http://WWW.google.com' rel="noreferrer" target="_blank" >View website</a></Button>  */}
-
-
-
-
-
+                                        <a href="https://rohan-anuj.github.io/Mr.tasc/index.html" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
 
 
                                 </div>
-                                
 
 
 
-                                
+
+
 
 
 
