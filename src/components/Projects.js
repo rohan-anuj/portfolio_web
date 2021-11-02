@@ -37,7 +37,7 @@ function Projects() {
 
                                          </div>
                                        <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className='infocard shadow-xl bg-white m-10 w-96 h-max  p-5  items-center flex-col rounded   flex justify-between'>
-                                        <img src={ems} className='rounded 32 ' alt="/" />
+                                        <img src={ems} className='rounded h-32 ' alt="/" />
                                         <a href="https://employms-c8870.web.app/" rel="noreferrer" target="_blank"> <Button variant='outlined' style={{ marginTop: "20px" }}> Click to view</Button>  </a>
 
 
