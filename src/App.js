@@ -14,10 +14,7 @@ function App() {
       <Github/>
       <ContactPage/>
       <Footer/>
-
-      
-     
-    </div>
+       </div>
   );
 }
 

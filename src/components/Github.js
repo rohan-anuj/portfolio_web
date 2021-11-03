@@ -5,12 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 function Github() {
-
-
-
-
-
-    return (
+      return (
         <div className="m-10 flex flex-col justify-between items-center">
             <span>
                 <a href="https://github.com/rohan-anuj" target="_blank" rel="noreferrer" ><div data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out" className="flex mt-4 dark:text-white items-center border border-2 cursor-pointer rounded w-max p-2 "><GitHubIcon /><h1>rohan-anuj</h1></div></a>
